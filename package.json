@@ -1,6 +1,7 @@
 {
-  "name": "turborepo-example",
   "private": true,
+  "name": "turborepo-example",
+  "packageManager": "bun@1.0.18",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
@@ -14,8 +15,8 @@
     "prettier": "^3.1.0",
     "turbo": "latest"
   },
-  "packageManager": "pnpm@8.9.0",
-  "engines": {
-    "node": ">=18"
-  }
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
 }
