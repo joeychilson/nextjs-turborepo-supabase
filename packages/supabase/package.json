@@ -1,0 +1,11 @@
+{
+  "name": "@repo/supabase",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/ssr": "^0.0.10",
+    "@supabase/supabase-js": "^2.39.0",
+    "next": "^14.0.3"
+  }
+}
