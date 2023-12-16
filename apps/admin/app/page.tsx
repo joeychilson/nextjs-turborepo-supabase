@@ -1,7 +1,9 @@
+import { Header } from "@repo/ui/components/header";
+
 export default function Page(): JSX.Element {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+      <Header />
+    </>
   );
 }
