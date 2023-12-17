@@ -1,7 +1,7 @@
 {
-  "private": true,
   "name": "@repo/supabase",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "@supabase/ssr": "^0.0.10",
     "@supabase/supabase-js": "^2.39.0",

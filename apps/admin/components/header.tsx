@@ -11,14 +11,8 @@ export const Header: FC = () => {
         <Link href="#">Hedge</Link>
       </div>
       <nav className="space-x-4">
-        <Link className="text-gray-700 hover:text-gray-900" href="#">
-          Feature 1
-        </Link>
-        <Link className="text-gray-700 hover:text-gray-900" href="#">
-          Feature 2
-        </Link>
-        <Link className="text-gray-700 hover:text-gray-900" href="#">
-          Feature 3
+        <Link className="text-gray-700 hover:text-gray-900" href="/companies">
+          Companies
         </Link>
       </nav>
       <Button

@@ -1,7 +1,7 @@
 {
-  "private": true,
   "name": "@repo/tailwind-config",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.32",

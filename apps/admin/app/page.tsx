@@ -1,9 +1,3 @@
-import { Header } from "@/components/header";
-
 export default function Page(): JSX.Element {
-  return (
-    <>
-      <Header />
-    </>
-  );
+  return <h1>Hello, World!</h1>;
 }
