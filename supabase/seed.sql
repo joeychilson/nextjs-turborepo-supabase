@@ -1,6 +1,6 @@
-insert into companies 
-    (name, legal_name, location, country, jurisdiction, website, investor_website, crunchbase, linkedin, twitter, industry, sector, founded_year, ipo_date, fiscal_year_end)
+insert into todos 
+    (name, is_complete)
 values
-  ('Green Energy Solutions', 'Green Energy Solutions Ltd', '456 Energy Lane', 'Canada', 'Ontario', 'https://www.greenenergysolutions.com', 'https://investors.greenenergysolutions.com', 'https://www.crunchbase.com/organization/green-energy-solutions', 'https://www.linkedin.com/company/green-energy-solutions', 'https://twitter.com/greenenergysol', 'Renewable Energy', 'Energy', 2010, '2024-06-15', '03-31'),
-  ('Health First Pharma', 'Health First Pharmaceuticals LLC', '789 Pharma Road', 'United Kingdom', 'England', 'https://www.healthfirstpharma.com', 'https://investors.healthfirstpharma.com', 'https://www.crunchbase.com/organization/health-first-pharma', 'https://www.linkedin.com/company/health-first-pharma', 'https://twitter.com/healthfirstpharma', 'Healthcare', 'Pharmaceuticals', 2008, '2022-09-30', '06-30'),
-  ('Global Logistics Group', 'Global Logistics Group Corporation', '101 Shipping Avenue', 'Germany', 'Berlin', 'https://www.globallogistics.com', 'https://investors.globallogistics.com', 'https://www.crunchbase.com/organization/global-logistics-group', 'https://www.linkedin.com/company/global-logistics-group', 'https://twitter.com/globallogistics', 'Transportation', 'Logistics', 2012, '2025-12-10', '09-30');
+    ('Buy milk', false),
+    ('Read a book', false),
+    ('Build a todo app', true);
